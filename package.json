@@ -1,0 +1,17 @@
+{
+  "name": "zhihui-kuandai",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-china-area-data": "^5.0.2",
+    "vue-jsonp": "^2.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,191 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宽带报装",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/area/area",
+			"style": {
+				"navigationBarTitleText": "切换社区",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white" //状态栏字体颜色
+				// "navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/area/addarea",
+			"style": {
+				"navigationBarTitleText": "添加社区",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white" //状态栏字体颜色
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/member/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/member/order",
+			"style": {
+				"navigationBarTitleText": "报装记录",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/member/invite",
+			"style": {
+				"navigationBarTitleText": "邀请记录",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/member/score",
+			"style": {
+				"navigationBarTitleText": "积分记录",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/member/income",
+			"style": {
+				"navigationBarTitleText": "返现记录",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "套餐列表",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/shop/show",
+			"style": {
+				"navigationBarTitleText": "套餐详情",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/shop/success",
+			"style": {
+				"navigationBarTitleText": "宽带报装",
+				"navigationBarBackgroundColor": "#c9d6de",
+				"navigationBarTextStyle": "white", //状态栏字体颜色
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/index/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "隐私政策",
+                "navigationBarBackgroundColor": "#c9d6de",
+                "navigationBarTextStyle": "white"
+            }
+            
+        },{
+            "path" : "pages/index/userment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户协议",
+                "navigationBarBackgroundColor": "#c9d6de",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/inorder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "实装记录",
+                "navigationBarBackgroundColor": "#c9d6de",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "推广赚钱攻略",
+				"navigationBarBackgroundColor": "#c9d6de",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宽带报装",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#d9e1e8",
+		"selectedColor": "#1f4e5f",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/homeHL.png"
+			},
+			{
+				"pagePath": "pages/shop/index",
+				"text": "套餐",
+				"iconPath": "static/tab/shop.png",
+				"selectedIconPath": "static/tab/shopHL.png"
+			},
+			{
+				"pagePath": "pages/member/member",
+				"text": "我的",
+				"iconPath": "static/tab/user.png",
+				"selectedIconPath": "static/tab/userHL.png"
+			}
+		]
+	}
+}

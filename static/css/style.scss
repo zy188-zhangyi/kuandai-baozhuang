@@ -1,0 +1,260 @@
+.page-box{
+	position: relative;
+	color: $uni-text-color;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height: 100%;
+	padding-top: 60rpx;
+	padding-bottom: 60rpx;
+	// background: linear-gradient(to bottom, rgba(236, 223, 214, 1.0) 20%, rgba(138, 158, 255, 0.2) 70%);
+	background-color: #f4f7f7;
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom);
+}
+
+.page-box-no{
+	position: relative;
+	color: $uni-text-color;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height: 100%;
+	padding-top: 20rpx;
+	// background: linear-gradient(to bottom, rgba(0, 181, 255, 0.4) 20%, rgba(240, 255, 255, 0.5) 70%);
+	background-color: #f4f7f7;
+	
+}
+.page-box-b-80{
+	position: relative;
+	color: $uni-text-color;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height: 100%;
+	z-index: 99;
+	background-color: #fff;
+	padding-bottom: 100px;
+	height: calc(100vh - constant(safe-area-inset-bottom));
+	height: calc(100vh- env(safe-area-inset-bottom));
+	overflow: hidden;
+}
+.pop-box{
+	position: relative;
+	color: $uni-text-color;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0, 181, 255, 0.4) 40%, rgba(240, 255, 255, 0.5) 70%);
+}
+.box-line{height: 1px;
+	border-top: dashed #777 1px;
+}
+.all-box{
+	padding: 5px 10px;
+	margin: 20px auto;
+	background: #fff;
+	border-radius: 5px;
+}
+.all-box-no{
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	background: #fff;
+	border-radius: 5px;
+}
+.page-title{
+	margin: 30rpx 20rpx;
+	font-size: 48rpx;
+	color: #1f4e5f;
+}
+.list-shop{
+	padding: 5px 10px;
+	margin: 20px auto;
+	background: #fff;
+	border-radius: 5px;
+}
+.h-shop-lie {
+	height: 70px;
+}
+.nodata{
+	text-align: center;
+	margin: 30px;
+}
+.nodata image {
+	width: 150px;
+	height: 100px;
+}
+.shop-pic{
+	width: 120px;
+	height: 120px;
+	padding: 5px 20px 5px 0;
+}
+.zhx{ text-decoration:line-through}
+.shop-pic image {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+}
+.shop-title{
+	font-size:16px;
+	min-height: 40px;
+	color: #1f4e5f;
+}
+.color-shop {
+	color: #1f4e5f;
+}
+.shop-buy-btns{
+	padding:3px 16px;
+	width: 60px;
+	line-height: 14px;
+	font-size: 12px;
+	margin-bottom: 1px;
+}
+.shop-buy-btn{
+	padding:3px 16px;
+	width: 60px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #1f4e5f;
+	background-color: #c6e5d9;
+}
+.text-bold{
+	font-weight: 600;
+}
+.color-gray{
+	color:#1f4e5f;
+}
+.color-red{
+	color: #FF6600;
+}
+.color-grey{
+	color:#444;
+}
+.color-green{
+	color: #00b400;
+}
+.color-blue{
+	color: #0091ff;
+}
+.color-yellow{
+	color: #f4f7f4; ;
+}
+.color-white{
+	color:#FFFFFF;
+}
+.color-a {
+	color: #B9BF4A;
+}
+
+.color-b {
+	color: #BF794A;
+}
+
+.color-c {
+	color: #BE5E46;
+}
+
+.color-d {
+	color: #BF734A;
+}
+
+.color-e {
+	color: #779CCF;
+}
+
+.color-f {
+	color: #73CEA2;
+}
+
+.color-g {
+	color: #B5CF77;
+}
+
+.listkan {
+	width: 100px;
+
+	image {
+		width: 100px;
+		height: 36px;
+	}
+}
+.cate-left{
+	width: 100px;
+	
+}
+.shop-swiper{
+	width:100%;
+	height:750rpx;
+}
+.shop-pics {
+	width: 100%;
+	height: 100%;
+}
+.shop-pics image {
+	width: 100%;
+	height: 100%;
+}
+.shop-content{
+	font-size: 14px;
+	padding: 15px 0;
+}
+.fixed-bottom {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background: #FFFFFF;
+	transform: translateZ(0);
+	box-shadow: 0rpx -5rpx 7rpx #e3e6e6;
+}
+.fix-right-bottom{
+	position: fixed;
+	width: 80px;
+	bottom: 120upx;
+	right: 0;
+	bottom: env(safe-area-inset-bottom);
+	bottom: constant(safe-area-inset-bottom);
+}
+.chat-boxx {
+	width: 80px;
+}
+
+.chat-box-btnx {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	width: 40px;
+	background: #fff;
+	color: #0b8b19;
+	padding:2px 0;
+}
+.chat-box-btnx::after {
+	border: none;
+	padding:2px 0;
+	// background: none;
+}
+.err-box{
+	padding:8px 20px;
+	background: #FF6600;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 5px;
+}
+.pagination-box{
+	padding:20px 20px 100px ;
+	background: #fff;
+}
+.color-blues{
+	color: #c9d6de !important;
+}
